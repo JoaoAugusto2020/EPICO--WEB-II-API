@@ -1,0 +1,13 @@
+npm init -y
+//criar com parâmetros padrão
+
+npm install -g typescript
+//instalar ts globalmente
+
+npm install express
+//instala o express (biblioteca de API)
+
+npm install typescript ts-node @type/express nodemon -D
+//-D é a mesma coisa de --save-dev
+//ts-node atualiza typescript automaticamente
+//nodemon escuta atualizações
